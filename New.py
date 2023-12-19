@@ -18,7 +18,7 @@ class TestDefaultSuite():
         self.driver.find_element(By.ID, "FirstName").click()
         self.driver.find_element(By.ID, "FirstName").send_keys("TEST")
         self.driver.find_element(By.ID, "LastName").send_keys("USER")
-        self.driver.find_element(By.ID, "EmailAddress").send_keys("mansurraj.891+198@gmail.com")
+        self.driver.find_element(By.ID, "EmailAddress").send_keys("mansurraj.891+200@gmail.com")
         self.driver.find_element(By.ID, "Password").click()
         self.driver.find_element(By.ID, "Password").send_keys("Qwerty123@")
         self.driver.find_element(By.ID, "CommunucationOptIn").click()
